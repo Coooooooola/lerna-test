@@ -1,21 +1,18 @@
 {
   "name": "lerna-test",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "build": "tsc --build packages/*/"
-  },
-  "devDependencies": {
-    "lerna": "^3.20.2",
-    "typescript": "^3.8.3"
+    "clean": "rm -rf packages/*/es",
+    "build": "lerna run --stream build"
   },
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "typescript": "^3.8.3",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0"
   }

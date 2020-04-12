@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "main": "es/index.js",
   "module": "es/index.js",
-  "typings": "src/index.ts",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "oops": "^0.0.1"
   }
