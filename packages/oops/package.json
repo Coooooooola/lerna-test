@@ -1,9 +1,14 @@
 {
   "name": "oops",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "typings": "src/index.ts",
   "license": "MIT",
   "dependencies": {
+    "@types/classnames": "^2.2.10",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
     "yoo": "^0.0.1"
   }
 }

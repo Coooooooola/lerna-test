@@ -1,7 +1,9 @@
 {
   "name": "yoo",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "typings": "src/index.ts",
   "license": "MIT",
   "dependencies": {
     "oops": "^0.0.1"
