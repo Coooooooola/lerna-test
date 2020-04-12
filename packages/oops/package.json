@@ -1,9 +1,9 @@
 {
   "name": "oops",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "yoo": "^1.0.0"
+    "yoo": "^0.0.1"
   }
 }
