@@ -1,10 +1,10 @@
 {
   "name": "yoo",
   "version": "0.0.1",
-  "main": "es/index.js",
   "module": "es/index.js",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf es",
     "build": "tsc"
   },
   "dependencies": {
