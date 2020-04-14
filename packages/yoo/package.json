@@ -1,13 +1,17 @@
 {
   "name": "yoo",
   "version": "0.0.1",
-  "module": "es/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf es",
+    "clean": "rm -rf lib",
     "build": "tsc"
   },
   "dependencies": {
     "oops": "^0.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.8.2"
   }
 }
